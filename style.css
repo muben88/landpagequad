@@ -214,6 +214,69 @@ body {
     text-align: right;
   }
   
+  .cta-button {
+      background: #ff4500;
+      padding: 0.75em 1.5em;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 1em;
+      display: inline-block;
+    }
+    .faq, .booking, .map {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .faq h2, .booking h2, .map h2 {
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    .faq-item h3 {
+      cursor: pointer;
+      margin-top: 1em;
+      color: #333;
+    }
+    .faq-item h3:hover {
+      color: #f36969;
+    }
+    .faq-item p {
+      cursor: pointer;
+      color: #555;
+      display: none;
+      margin-top: 0.5em;
+    }
+    .faq-item.active p {
+      display: block;}
+    .booking form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+    .booking input, .booking textarea, .booking button {
+      padding: 0.75em;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .booking button {
+      background: #333;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .social {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 2em 0;
+    }
+    .social img {
+      width: 30px;
+      margin: 0 10px;
+    }
+
 
   @media (max-width: 1024px) {
     .gallery-grid {
