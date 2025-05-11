@@ -226,7 +226,6 @@ body {
     }
     .faq, .booking, .map {
       padding: 60px 20px;
-      max-width: 1000px;
       margin: auto;
     }
     .faq h2, .booking h2, .map h2 {
@@ -247,24 +246,33 @@ body {
       display: none;
       margin-top: 0.5em;
     }
+
     .faq-item.active p {
-      display: block;}
+      display: block;
+    }
+
     .booking form {
       display: flex;
       flex-direction: column;
       gap: 1em;
     }
+
+
     .booking input, .booking textarea, .booking button {
       padding: 0.75em;
       font-size: 1em;
       border: 1px solid #ccc;
       border-radius: 5px;
     }
+
     .booking button {
       background: #333;
-      color: white;
       font-weight: bold;
       cursor: pointer;
+    }
+    .booking button a {
+      text-decoration: none;
+      color: white;
     }
     .social {
       background: #222;
@@ -276,7 +284,35 @@ body {
       width: 30px;
       margin: 0 10px;
     }
+  .contact {
+      background: #fff;
+      padding: 60px 20px;
+      text-align: center;
+      margin: auto;
+  }
+  .contact h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  .contact p {
+    font-size: 1.1em;
+    margin: 0.5em 0;
+    color: #333;
+  }
+  .contact a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .contact a:hover {
+    text-decoration: underline;
+  }
 
+  .contact-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   @media (max-width: 1024px) {
     .gallery-grid {
